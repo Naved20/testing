@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E02020" />
+      <stop offset="100%" stop-color="#B81414" />
+    </linearGradient>
+    <filter id="avShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Background Badge -->
+  <rect width="120" height="120" rx="30" fill="url(#avatarGrad)" filter="url(#avShadow)" />
+  
+  <!-- Modern Bus Front Silhouette -->
+  <g transform="translate(25, 20)" fill="#FFFFFF">
+    <path d="M10 6C16 3 54 3 60 6C66 8 68 13 68 22V52C68 57 65 60 60 60H10C5 60 2 57 2 52V22C2 13 4 8 10 6Z" fill="#FFFFFF"/>
+    <!-- Windshield -->
+    <path d="M7 14C12 12 58 12 63 14C64 16 64 19 64 30H6C6 19 6 16 7 14Z" fill="#14213d"/>
+    <!-- Destination sign -->
+    <rect x="20" y="8" width="30" height="4" rx="2" fill="#FFD166"/>
+    <!-- Grille -->
+    <rect x="20" y="42" width="30" height="6" rx="3" fill="#14213d" opacity="0.3"/>
+    <!-- Headlights -->
+    <circle cx="12" cy="42" r="4.5" fill="#FFD166"/>
+    <circle cx="58" cy="42" r="4.5" fill="#FFD166"/>
+    <!-- Side Mirrors -->
+    <path d="M-4 18C-4 15 0 15 1 18V26C1 28 -4 28 -4 26Z" fill="#FFFFFF"/>
+    <path d="M74 18C74 15 70 15 69 18V26C69 28 74 28 74 26Z" fill="#FFFFFF"/>
+    <!-- Wheels -->
+    <rect x="10" y="58" width="12" height="10" rx="3" fill="#14213d"/>
+    <rect x="48" y="58" width="12" height="10" rx="3" fill="#14213d"/>
+  </g>
+</svg>

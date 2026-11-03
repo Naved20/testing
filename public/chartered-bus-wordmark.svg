@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" width="420" height="110" fill="none">
+  <defs>
+    <linearGradient id="busGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E02020" />
+      <stop offset="100%" stop-color="#B81414" />
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14213d" />
+      <stop offset="100%" stop-color="#0b132b" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Bus Icon Badge -->
+  <g transform="translate(10, 15)">
+    <!-- Shield / Badge background -->
+    <rect x="0" y="0" width="76" height="76" rx="18" fill="url(#busGrad)" filter="url(#shadow)" />
+    
+    <!-- Stylized Modern Bus Front -->
+    <g transform="translate(14, 14)" fill="#FFFFFF">
+      <!-- Bus Roof & Body -->
+      <path d="M7 3C11 1 37 1 41 3C45 4 47 7 47 13V35C47 38 45 40 42 40H6C3 40 1 38 1 35V13C1 7 3 4 7 3Z" fill="#FFFFFF"/>
+      <!-- Windshield -->
+      <path d="M5 8C8 7 40 7 43 8C44 9 44 11 44 19H4C4 11 4 9 5 8Z" fill="#14213d"/>
+      <!-- Lower Grille & Bumper -->
+      <rect x="13" y="27" width="22" height="4" rx="2" fill="#14213d" opacity="0.4"/>
+      <!-- Headlights -->
+      <circle cx="8" cy="27" r="3" fill="#FFD166"/>
+      <circle cx="40" cy="27" r="3" fill="#FFD166"/>
+      <!-- Side mirrors -->
+      <path d="M-2 12C-2 10 0 10 1 12V18C1 19 -2 19 -2 18Z" fill="#FFFFFF"/>
+      <path d="M50 12C50 10 47 10 47 12V18C47 19 50 19 50 18Z" fill="#FFFFFF"/>
+      <!-- Wheels -->
+      <rect x="6" y="38" width="8" height="6" rx="2" fill="#14213d"/>
+      <rect x="34" y="38" width="8" height="6" rx="2" fill="#14213d"/>
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(100, 20)">
+    <!-- CHARTERED text -->
+    <text x="0" y="38" font-family="'Montserrat', 'Poppins', sans-serif" font-weight="900" font-size="34" letter-spacing="1.5" fill="url(#navyGrad)">
+      CHARTERED
+    </text>
+    <!-- BUS text in Red with speed bars -->
+    <text x="218" y="38" font-family="'Montserrat', 'Poppins', sans-serif" font-weight="900" font-size="34" letter-spacing="2" fill="url(#busGrad)">
+      BUS
+    </text>
+    
+    <!-- Speed line accent -->
+    <rect x="0" y="47" width="280" height="3" rx="1.5" fill="url(#busGrad)" />
+    
+    <!-- Tagline -->
+    <text x="2" y="62" font-family="'Poppins', sans-serif" font-weight="600" font-size="11.5" letter-spacing="3" fill="#6c757d">
+      INDIA'S PREFERRED MOBILITY
+    </text>
+  </g>
+</svg>
